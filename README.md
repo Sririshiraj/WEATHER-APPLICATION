@@ -18,3 +18,6 @@ We need to have the account in the openweatherapi where we get the particukar ke
 That key value we need to enter in the code for the updates.
  It may also offer extended forecasts for the upcoming days, weather maps, and alerts for severe weather conditions like storms, hurricanes, or extreme temperatures. Many weather apps also include features such as radar imagery, UV index, sunrise and sunset times, and a personalized weather widget for easy access. These apps gather data from various meteorological sources, including weather satellites, sensors, and local reporting stations, ensuring accurate and up-to-date information for users.
 Weather applications are extremely useful tools that provide quick and accurate weather information to help users plan their day or stay safe during extreme weather conditions. They often rely on a combination of APIs, real-time data processing, and intuitive UI/UX design to deliver valuable information in a simple and engaging way.
+
+OUTPUT:
+![Image](https://github.com/user-attachments/assets/3dd33c90-6238-45ac-89e2-85208378f5d7)
