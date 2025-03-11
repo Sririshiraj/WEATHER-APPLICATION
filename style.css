@@ -1,0 +1,79 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for overlay */
+  }
+  
+  .weather-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative; /* To make sure it's on top of the overlay */
+  }
+  
+  .weather-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark transparent overlay */
+    z-index: -1; /* Ensures it's behind the content */
+  }
+  
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  #city {
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0d80fa;
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #08e1e5;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .weather-info h2 {
+    margin-top: 20px;
+  }
+  
+  
